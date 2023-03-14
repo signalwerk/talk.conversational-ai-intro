@@ -1,4 +1,4 @@
-# Conversational AI - an introductory session.
+# Conversational AI · an introductory session
 
 [Show Slides](https://signalwerk.github.io/talk.conversational-ai-intro/)
 
