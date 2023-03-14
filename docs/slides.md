@@ -321,6 +321,7 @@ background: true
   - Ethics/Law
   - Tools
 - April – **Training for Developers**
+  - Copilot
   - Learn how to fine-tune a ChatGPT model
   - Learn how to use embeddings
 
