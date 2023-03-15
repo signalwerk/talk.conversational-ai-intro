@@ -12,7 +12,7 @@ background: true
 
 # {{process.content.frontmatter.title}}
 
-_How to use AI and ChatGPT in sepecific_
+_How to use AI and ChatGPT in specific_
 
 <footer>
 
@@ -69,8 +69,12 @@ background: true
 ## Objective of the session
 
 - What is _Conversational AI_?
-- How to use AI and _ChatGPT_ in sepecific?
+- How to use AI and _ChatGPT_ in specific?
+  - _optimize_ your **prompts**
+  - give **context** & _engage_
 - What is _your benefit_?
+  - **problems** to solve
+  - share your _findings_
 
 --s--
 
@@ -106,13 +110,13 @@ background: true
 - Trained on **massive text data**
 - Capable of **answering questions** and engaging in _conversations_
 
-> Potential applications include customer service, search, and content creation
+> ChatGPT offers responses on virtually «any» subject.
 
 --s--
 
 ## What is _GPT_?
 
-- Acronym for _«Generative Pre-trained Transformer 3»_ (GPT-3)
+- Acronym for _«Generative Pre-trained Transformer»_ (GPT-3 / GPT-4)
 
 > AI gibberish…
 
@@ -171,6 +175,19 @@ background: true
 - _2021_: DALL·E released (image model)
 - _2022_: ChatGPT released (conversational model)
 - _2023_: Large investment from Microsoft
+- _2023_: GPT-4 released
+
+--s--
+
+## GPT-4 Performance
+
+![](./img/gtp-4-performance.svg)
+
+<footer>
+
+Source: [March 14, 2023 – OpenAI Announcement](https://openai.com/research/gpt-4)
+
+</footer>
 
 --s--
 
@@ -183,14 +200,15 @@ background: true
 
 --s--
 
-## GPT-3 «corpus»
+## Trained on «corpus»
 
-- Trained on
-  - Crawled web
-  - WebText2
-  - Books1
-  - Books2
-  - Wikipedia
+- Crawled web
+- WebText2
+- Books1
+- Books2
+- Wikipedia
+
+> later manually evaluated/ranked/curated
 
 --s--
 
@@ -203,7 +221,7 @@ background: true
 
 --s--
 
-## Generative Pre-trained Transformer 3
+## Generative Pre-trained Transformer
 
 ![](https://openaicom.imgix.net/cf717bdb-0c8c-428a-b82b-3c3add87a600/ChatGPT_Diagram.svg)
 
@@ -230,7 +248,7 @@ Q: What should we cover in this session about AI?
 
 # Be specific
 
-Q: What are the five most important topics for a workshop about ChatGPT?
+Q: What are the _five most important topics_ for a _workshop_ about _ChatGPT_?
 
 --s--
 
@@ -238,7 +256,7 @@ Q: What are the five most important topics for a workshop about ChatGPT?
 
 # Give context
 
-Q: In a 1.5h online training session with 10 people. What could be a good time-table to learn in an efficient way to prompt ChatGPT for daily use in a digital agency?
+Q: In a **1.5h online training** session with **10 people**. What could be a good _time-table_ to learn in an efficient way **to prompt ChatGPT** for daily use in a **digital agency**? _Mark relevant information bold._
 
 --s--
 
@@ -261,6 +279,46 @@ Q: In a 1.5h online training session with 10 people. What could be a good time-t
 
 --s--
 
+## Ask for the format
+
+<div style="font-size: .8rem">
+<pre>
+
+Please name 10 inventors of the 20th century.
+Response format should be: name, year, invention
+
+</pre>
+</div>
+
+--s--
+
+## Few-shot learning
+
+<div style="font-size: .5rem">
+<pre>
+
+I have this structure.
+
+A: Hey I really like you!
+positive: yes
+
+A: His is wonderful
+positive: yes
+
+A: I don't like you.
+positive: no
+
+please fill the missing parts for this:
+
+A: I like computers
+A: Don't do that
+A: Red is a good color
+
+</pre>
+</div>
+
+--s--
+
 ```fm
 style: negative
 background: true
@@ -270,23 +328,80 @@ background: true
 
 What problems could we face with ChatGPT?
 
---s--
-
-## Examples
-
+<!--
 - Hallucinating
 - Bias
 - Cut-off date (September 2021)
 - Legal issues
-- Washed out answers
+- Washed out answers -->
+
+--s--
+
+## Hallucinating
+
+### Q: What are the three rivers in Winterthur?
+
+- A: ... Töss, the Eulach, and **the Sulzerbach**
+- A: … Töss … Eulach … **Thur** …
+
+---
+
+> Correct: Töss, Eulach, Mattenbach
+
+<footer>
+
+Different answers depending on the prompt, chat-history and language.
+
+</footer>
+
+--s--
+
+## Bias
+
+> Limitation: The models encode social biases, e.g. via stereotypes or negative sentiment towards certain groups.
+
+- stereotypes
+- gendered names
+- regional names
+
+<footer>
+
+Source: [OpenAI: Limitations & risks](https://platform.openai.com/docs/guides/embeddings/limitations-risks)
+
+</footer>
+
+--s--
+
+## Cut-off date
+
+- Don't expect events/answers/facts/knowhow after **September 2021**
+
+--s--
+
+## Legal issues
+
+- We don't know …
+- **LiipTalk** 4th April
+- [AI · Is it ethical to learn?](https://www.liip.ch/en/blog/ai-is-it-ethical-to-learn)
+
+---
+
+> Use it and hope for the best…
+
+--s--
+
+## Stereotype answers
+
+- Most obvious thinking
+- «Washed out» rewrites of the prompt
 
 --s--
 
 ## Practice · Demo
 
 - Got to [chat.openai.com](https://chat.openai.com/chat)
-- Problem A – Text-Expansion: **«Give your (imaginary) colleague a feedback»**.
-- Problem B – Summarize: **«Get a quick summary of [this text](https://www.liip.ch/en/blog/the-week-an-innovative-programme-that-tackles-environmental-and-social-challenges)»**
+- Problem A: **«Give your (imaginary) colleague a feedback»**.
+- Problem B: **«Get a quick summary of [this text](https://www.liip.ch/en/blog/the-week-an-innovative-programme-that-tackles-environmental-and-social-challenges)»**
 - Share screenshot in `#ai-session-mar2023`
   - Only **one screenshot** per person
   - Only **one prompt and one answer** per person
@@ -304,12 +419,41 @@ background: true
 
 --s--
 
-## ⚠️⚠️⚠️ TBD Expectations
+## Expectations
 
 - What can ChatGPT do for me?
+  - Get a quick _explanation/answer_ for a common topic
+  - _Create content_
+  - _Translate/summarise_
+  - Save time in «small» tasks
+  - …
+
+--s--
+
+## Expectations
+
 - What can’t we do with ChatGPT?
-- When/where/how can I save time?
-- zero-shot learning and few-shot learning
+  - Don’t expect it to _be true_
+  - Don’t expect hard _facts_
+  - …
+
+--s--
+
+## What can Liip do with OpenAI/ChatGPT?
+
+- **Content creation**
+- **Search**
+- **Translations**
+- **Chat-Bots**
+
+--s--
+
+## Example · Search
+
+<video  controls>
+  <source src="./media/search_small.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 --s--
 
@@ -317,9 +461,8 @@ background: true
 
 - [Prompt Engineering Guide](https://github.com/dair-ai/Prompt-Engineering-Guide)
 - 4th April – **LiipTalk**
-  - ChatGPT/OpenAI
+  - ChatGPT/OpenAI/Tools
   - Ethics/Law
-  - Tools
 - April – **Training for Developers**
   - Copilot
   - Learn how to fine-tune a ChatGPT model
@@ -327,12 +470,6 @@ background: true
 
 --s--
 
-## Feedback
-
-- Things you still need to know?
-- [3 Question survey](https://forms.gle/R9TJCUANN7JrBYur9)
-
---s--
 
 ```fm
 style: negative
@@ -341,4 +478,4 @@ background: true
 
 ## exit 0; thx
 
-# Questions?
+# *Thx.* Questions?
