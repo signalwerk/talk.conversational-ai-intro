@@ -86,9 +86,16 @@ background: true
 
 --s--
 
+## Second session
+
+- We have _learnings_ from the **first** session
+- Please help us to _improve_ for the **next** session
+
+--s--
+
 ## Disclaimer
 
-- I am **not** an _AI expert_
+- I am **not** an _AI/ML expert_
 - I am **not** a _ChatGPT expert_
 
 > I try to explain it as simple as possible
@@ -97,7 +104,7 @@ background: true
 
 ## Requirements
 
-- Join `#ai-session-mar2023`
+- Join `#ai-session-apr2023`
 - Your **participation** is welcome and needed
 - We are all learning – please _make others feel safe_
 
@@ -118,7 +125,7 @@ background: true
 
 - Acronym for _«Generative Pre-trained Transformer»_ (GPT-3 / GPT-4)
 
-> AI gibberish…
+> Machine Learning gibberish…
 
 --s--
 
@@ -127,7 +134,7 @@ background: true
 - Got to [chat.openai.com](https://chat.openai.com/chat)
 - Create an account
 - Answer the Question with the help of ChatGPT: <br> _What should we cover in this session about AI?_
-- Share screenshot in `#ai-session-mar2023`
+- Share screenshot in `#ai-session-apr2023`
   - Only **one screenshot** per person
   - Only **one prompt and one answer** per person
 
@@ -212,6 +219,15 @@ background: true
 
 --s--
 
+## No Internet _🧨_
+
+- ChatGPT is **not a search engine**
+- It is _not using «live» data_ from the web
+
+> think of it as: someone had access to the web and learned on all data but is now offline
+
+--s--
+
 ## From Text to a Vector
 
 - GPT-3: Model with 175 billion parameters
@@ -292,33 +308,6 @@ Response format should be: name, year, invention
 
 --s--
 
-## Few-shot learning
-
-<div style="font-size: .5rem">
-<pre>
-
-I have this structure.
-
-A: Hey I really like you!
-positive: yes
-
-A: His is wonderful
-positive: yes
-
-A: I don't like you.
-positive: no
-
-please fill the missing parts for this:
-
-A: I like computers
-A: Don't do that
-A: Red is a good color
-
-</pre>
-</div>
-
---s--
-
 ```fm
 style: negative
 background: true
@@ -327,13 +316,6 @@ background: true
 ## Problems?
 
 What problems could we face with ChatGPT?
-
-<!--
-- Hallucinating
-- Bias
-- Cut-off date (September 2021)
-- Legal issues
-- Washed out answers -->
 
 --s--
 
@@ -381,12 +363,11 @@ Source: [OpenAI: Limitations & risks](https://platform.openai.com/docs/guides/em
 ## Legal issues
 
 - We don't know …
-- **LiipTalk** 4th April
 - [AI · Is it ethical to learn?](https://www.liip.ch/en/blog/ai-is-it-ethical-to-learn)
 
 ---
 
-> Use it and hope for the best…
+> OpenAI/ChatGPT is not a [Highly-Trusted Service](https://docs.google.com/document/d/1jlm6Cj-dHXbEcT8PSFHYPTxmP00S4Fj43ZMKJKtVSuk/edit#heading=h.fsuhhrmrgwbi) for Liip!
 
 --s--
 
@@ -400,9 +381,8 @@ Source: [OpenAI: Limitations & risks](https://platform.openai.com/docs/guides/em
 ## Practice · Demo
 
 - Got to [chat.openai.com](https://chat.openai.com/chat)
-- Problem A: **«Give your (imaginary) colleague a feedback»**.
-- Problem B: **«Get a quick summary of [this text](https://www.liip.ch/en/blog/the-week-an-innovative-programme-that-tackles-environmental-and-social-challenges)»**
-- Share screenshot in `#ai-session-mar2023`
+- Problem: **«Get a quick summary of [this text](https://www.liip.ch/en/blog/the-week-an-innovative-programme-that-tackles-environmental-and-social-challenges)»**
+- Share screenshot in `#ai-session-apr2023`
   - Only **one screenshot** per person
   - Only **one prompt and one answer** per person
 
@@ -460,16 +440,13 @@ background: true
 ## Whats next?
 
 - [Prompt Engineering Guide](https://github.com/dair-ai/Prompt-Engineering-Guide)
-- 4th April – **LiipTalk**
-  - ChatGPT/OpenAI/Tools
-  - Ethics/Law
-- April – **Training for Developers**
+- [ChatGPT & AI · Quick guide](http://liip.to/aiquickguide)
+- Mai – [**Training for Developers**](https://zebra.liip.ch/training/offering/public-view/43)
   - Copilot
   - Learn how to fine-tune a ChatGPT model
   - Learn how to use embeddings
 
 --s--
-
 
 ```fm
 style: negative
@@ -478,4 +455,4 @@ background: true
 
 ## exit 0; thx
 
-# *Thx.* Questions?
+# _Thx._ Questions?
