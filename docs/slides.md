@@ -367,7 +367,7 @@ Source: [OpenAI: Limitations & risks](https://platform.openai.com/docs/guides/em
 
 ---
 
-> OpenAI/ChatGPT is not a [Highly-Trusted Service](https://docs.google.com/document/d/1jlm6Cj-dHXbEcT8PSFHYPTxmP00S4Fj43ZMKJKtVSuk/edit#heading=h.fsuhhrmrgwbi) for Liip!
+> OpenAI/ChatGPT is not a <br>[Highly-Trusted Service](https://docs.google.com/document/d/1jlm6Cj-dHXbEcT8PSFHYPTxmP00S4Fj43ZMKJKtVSuk/edit#heading=h.fsuhhrmrgwbi) for Liip!
 
 --s--
 
@@ -439,12 +439,12 @@ background: true
 
 ## Whats next?
 
+- Join `#ai-exchange` channel
 - [Prompt Engineering Guide](https://github.com/dair-ai/Prompt-Engineering-Guide)
 - [ChatGPT & AI · Quick guide](http://liip.to/aiquickguide)
 - Mai – [**Training for Developers**](https://zebra.liip.ch/training/offering/public-view/43)
-  - Copilot
-  - Learn how to fine-tune a ChatGPT model
-  - Learn how to use embeddings
+  - Use AI in your own projects
+  - Use AI for your workflow
 
 --s--
 
