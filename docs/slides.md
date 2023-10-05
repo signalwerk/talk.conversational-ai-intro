@@ -86,9 +86,9 @@ background: true
 
 --s--
 
-## Second session
+## Third session
 
-- We have _learnings_ from the **first** session
+- We have _learnings_ from the **first two** session
 - Please help us to _improve_ for the **next** session
 
 --s--
@@ -96,7 +96,6 @@ background: true
 ## Disclaimer
 
 - I am **not** an _AI/ML expert_
-- I am **not** a _ChatGPT expert_
 
 > I try to explain it as simple as possible
 
@@ -104,7 +103,7 @@ background: true
 
 ## Requirements
 
-- Join `#ai-session-apr2023`
+- Join `#ai-session-oct2023`
 - Your **participation** is welcome and needed
 - We are all learning – please _make others feel safe_
 
@@ -134,7 +133,7 @@ background: true
 - Got to [chat.openai.com](https://chat.openai.com/chat)
 - Create an account
 - Answer the Question with the help of ChatGPT: <br> _What should we cover in this session about AI?_
-- Share screenshot in `#ai-session-apr2023`
+- Share screenshot in `#ai-session-oct2023`
   - Only **one screenshot** per person
   - Only **one prompt and one answer** per person
 
@@ -225,6 +224,14 @@ background: true
 - It is _not using «live» data_ from the web
 
 > think of it as: someone had access to the web and learned on all data but is now offline
+
+--s--
+
+## Extensions & Web Browsing
+
+- If you activate «Web Browsing» you can access the web
+
+> Be careful: it is sometimes not clear if the answer is from the web or from the model, the answer is not always correct
 
 --s--
 
@@ -382,7 +389,7 @@ Source: [OpenAI: Limitations & risks](https://platform.openai.com/docs/guides/em
 
 - Got to [chat.openai.com](https://chat.openai.com/chat)
 - Problem: **«Get a quick summary of [this text](https://www.liip.ch/en/blog/the-week-an-innovative-programme-that-tackles-environmental-and-social-challenges)»**
-- Share screenshot in `#ai-session-apr2023`
+- Share screenshot in `#ai-session-oct2023`
   - Only **one screenshot** per person
   - Only **one prompt and one answer** per person
 
@@ -393,9 +400,19 @@ style: negative
 background: true
 ```
 
-# More tools!
+# More tools?! _✨_
 
-## Raphael Antonietti
+--s--
+
+## Tools
+
+- [**Midjourney** – Create Images from Text](https://www.midjourney.com/)
+- [**Notion** – Notes with AI](https://www.notion.so/product/ai)
+- [**Consensus** – AI search on sicence papers](https://consensus.app/)
+- [**QuillBot** – writing helper](https://quillbot.com/)
+- [**ChatPDF** – Clever search in PDFs](https://www.chatpdf.com/)
+- [**Claude 2** – Work on big Documents](https://www.anthropic.com/index/claude-2)
+- [**Futurepedia** – Seach for Tools](https://www.futurepedia.io/)
 
 --s--
 
@@ -442,9 +459,7 @@ background: true
 - Join `#ai-exchange` channel
 - [Prompt Engineering Guide](https://github.com/dair-ai/Prompt-Engineering-Guide)
 - [ChatGPT & AI · Quick guide](http://liip.to/aiquickguide)
-- Mai – [**Training for Developers**](https://zebra.liip.ch/training/offering/public-view/43)
-  - Use AI in your own projects
-  - Use AI for your workflow
+- [**AI LiipLab**](https://liip.to/ailab)
 
 --s--
 
